@@ -37,9 +37,7 @@ class InventarioController extends Controller
         $inventarios->valor=$request->get('valor');
         $inventarios->fechaAdquisicion=$request->get('fechaAdquisicion');
         $inventarios->fechaSalida=$request->get('fechaSalida');
-        $inventarios->save ();
-
-        
+        $inventarios->save();
         return Redirect::to('inventario');
     }
 

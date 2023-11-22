@@ -36,7 +36,9 @@ class MobiliarioController extends Controller
         $mobiliarios->valor=$request->get('valor');
         $mobiliarios->estado=$request->get('estado');
         $mobiliarios->propietario=$request->get('propietario');
-        $mobiliarios->comentarios=$request->get('comentarios');
+        $mobiliarios->fechaEntrada=$request->get('fechaEntrada');
+        $mobiliarios->fechaSalida=$request->get('fechaSalida');
+        $mobiliarios->comentario=$request->get('comentario');
         $mobiliarios->save();
         return Redirect::to('mobiliario');
     }
@@ -71,7 +73,7 @@ class MobiliarioController extends Controller
         $mobiliarios->propietario=$request->get('propietario');
         $mobiliarios->fechaEntrada=$request->get('fechaEntrada');
         $mobiliarios->fechaSalida=$request->get('fechaSalida');
-        $mobiliarios->comentarios=$request->get('comentarios');
+        $mobiliarios->comentario=$request->get('comentario');
 
         $mobiliarios->update();
         return Redirect::to('mobiliario');

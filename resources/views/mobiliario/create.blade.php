@@ -61,9 +61,9 @@ placeholder="Propietario del inmueble">
     
     <div class="col-lg-4 col-md-9 col-sm-6 col-xs-12">
         <div class="form-group">
-            <label for="fechaAquisicion">Fecha de Aquisición</label>
-        <input type="date" name="fechaAdquisicion" id="fechaAdquisicion" class="form-control"
-placeholder="Fecha de Aquisición">
+            <label for="fechaEntrada">Fecha de Entrada</label>
+        <input type="date" name="fechaEntrada" id="fechaEntrada" class="form-control"
+placeholder="Fecha de Entrada">
         </div>
     </div>
     <div class="col-lg-4 col-md-9 col-sm-6 col-xs-12">
@@ -73,8 +73,7 @@ placeholder="Fecha de Aquisición">
 placeholder="Fecha de Salida">
         </div>
     </div>
-
-    </div>
+    
     <div class="col-lg-4 col-md-9 col-sm-6 col-xs-12">
         <div class="form-group">
             <label for="comentarios">Comentarios</label>
@@ -84,14 +83,6 @@ placeholder="Comentarios">
     </div>
 
     </div>
-    <div class="col-lg-4 col-md-9 col-sm-6 col-xs-12">
-        <div class="form-group">
-            <label for="Opciones">Opciones</label>
-        <input type="text" name="Opciones" id="Opciones" class="form-control"
-placeholder="Opciones">
-        </div>
-    </div>
-
     <div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
         <div class="form-group"> <br>
             <button class="btn btn-primary" type="submit"><span

@@ -49,9 +49,9 @@
     
     </div>
     <div class="col-md-6">
-        <label for="fechaAdquisicion" class="form-label">Fecha de Adquisición</label>
-        <input type="date" name="fechaAdquisicion" id="fechaAdquisicion" class="form-control"
-            value="{{$mobiliario->fechaAdquisicion}}">
+        <label for="fechaEntrada" class="form-label">Fecha de Entrada</label>
+        <input type="date" name="fechaEntrada" id="fechaEntrada" class="form-control"
+            value="{{$mobiliario->fechaEntrada}}">
 
     </div>
     <div class="col-md-6">

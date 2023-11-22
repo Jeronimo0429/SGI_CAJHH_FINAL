@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('estado');
             $table->string('propietario');
             $table->string('fechaEntrada');
-            $table->date('fechaSalida');
+            $table->date('fechaSalida')->nullable();
             $table->date('comentario');
             $table->date('opciones');
             $table->timestamps();

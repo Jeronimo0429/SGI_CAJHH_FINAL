@@ -23,8 +23,7 @@
         <th>Propietario</th>
         <th>fecha de Entrada</th>
         <th>fecha de Salida</th>
-        <th>Comentarios</th>
-        <th>Opciones</th>
+        <th>Comentario</th>
       </thead>
       <tbody>
       @foreach($mobiliario as $mobil)
@@ -37,9 +36,9 @@
         <td>{{ $mobil->propietario }}</td>
         <td>{{ $mobil->fechaEntrada }}</td>
         <td>{{ $mobil->fechaSalida }}</td>
-        <td>{{ $mobil->comentarios }}</td>
+        <td>{{ $mobil->comentario }}</td>
         <td>
-        <a href="{{URL::action('App\Http\Controllers\InmuebleController@edit',$mobil->id)}}" class="edit" title="Edit" data-toggle="tooltip"> <i class="material-icons">&#xE254;</i></a>
+        <a href="{{URL::action('App\Http\Controllers\mobiliarioController@edit',$mobil->id)}}" class="edit" title="Edit" data-toggle="tooltip"> <i class="material-icons">&#xE254;</i></a>
         
         <a href="" data-bs-toggle="modal" data-bs-target="#modal-delete-{{$mobil->id}}" class="delete" title="Delete" data-toggle="tooltip">
             <i class="material-icons">&#xE872;</i>

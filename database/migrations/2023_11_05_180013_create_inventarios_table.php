@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('marca');
             $table->string('valor');
             $table->date('fechaAdquisicion');
-            $table->date('fechaSalida');
+            $table->date('fechaSalida')->nullable();
             $table->timestamps();
         });
     }
