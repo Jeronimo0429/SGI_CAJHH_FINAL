@@ -7,6 +7,7 @@ use App\Models\Pedido;
 use App\Models\Sede;
 use App\Models\Usuario;
 use App\Models\Inventario;
+use App\Models\Mobiliario;
 
  
 
@@ -40,6 +41,14 @@ class PdfController extends Controller
     {
     $inv=Inventario::orderBy('id','ASC')->get();
     $pdf=PDF::loadView('pdf.inventariosPDF',['inventario' => $inv ]);
+    $pdf->setPaper('carta', 'A4');
+    return $pdf->stream();
+    }
+
+    public function imprimirmobiliarios(Request $request)
+    {
+    $mob=Mobiliario::orderBy('id','ASC')->get();
+    $pdf=PDF::loadView('pdf.mobiliariosPDF',['mobiliario' => $mob ]);
     $pdf->setPaper('carta', 'A4');
     return $pdf->stream();
     }

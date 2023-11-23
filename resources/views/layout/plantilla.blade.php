@@ -10,6 +10,7 @@
     <title>PROYECTO SGI_CAJHH</title>
 
     <link href="{{ asset('css/styles.css')}}" rel="stylesheet" />
+    <link rel="icon" href="{{ asset('img/AJHH_COLORS.png') }}" type="image/png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     
@@ -170,7 +171,7 @@
                 <div class="container-fluid px-4">
                     <div class="d-flex align-items-center justify-content-between small">
                         
-                        <div class="text-muted">Developers Unicamacho 2023</div>
+                        <div class="text-muted"></div>
                         
                         <div>
                             <!--<a href="#">Privacy Policy</a>

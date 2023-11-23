@@ -4,17 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lista Sedes </title>
+    <title>Informe de Sedes </title>
     <!-- Theme style -->
 <link rel="stylesheet"
 href="{{public_path('dist/css/adminlte.min.css')}}">
 </head>
 <body>
-    <div class="container">
+<div class="container">
         <div class="row">
         <div class="col">
-            <img src="{{public_path('img/logo1.jpeg')}}" alt="" width='150px'>
-        </div>
+        <img src="{{public_path('img/logoopdf.jpg')}}" alt="" width='140px' class="logopdf">
+        <img src="{{public_path('img/fundacion.jpg')}}" alt="" width='115px' class="fundacionpdf">
+    </div>
+        <style>
+            .logopdf {
+                position: relative;
+                top: -3%;
+                left: -25%;
+            }
+        </style>
+        <style>
+            .fundacionpdf {
+                position: relative;
+                top: -3%;
+                right: -73%;
+            }
+        </style>
+    </div>
         <div class="col-md-12 col-xs-12">
          <h4 class="text-center">Colegio Ana Julia Holguin de Hurtado</h4>
         </div>

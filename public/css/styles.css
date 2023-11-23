@@ -179,6 +179,9 @@ h4,
 h5,
 .h5 {
   font-size: 1.25rem;
+  font-family: cursive;
+  font-weight: bold;
+
 }
 
 h6,
@@ -192,7 +195,6 @@ p {
   margin: 1rem;
   color: #3d3d3d;
   font-family: cursive;
-  font-size: xx-large;
   font-weight: bold;
 }
 
@@ -6537,6 +6539,7 @@ fieldset:disabled .btn {
 
 .modal-dialog-scrollable .modal-body {
   overflow-y: auto;
+  font-size: xx-large;
 }
 
 .modal-dialog-centered {
